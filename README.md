@@ -11,8 +11,9 @@
 * **Comando de despliegue:** `docker-compose up -d`
 * **Servicios levantados:** Un servidor de consola (SSH) y uno gráfico (Webtop/RDP). 
 
-<div align="center">
-  <img src="conexion_al_contenedor.jpg.png" alt="Conexión Inicial SSH" width="80%">
+<img width="952" height="1071" alt="ServidorInstalado" src="https://github.com/user-attachments/assets/b3e0673b-bfa9-4e1f-bcf6-8e86be18b9a0" />
+
+
   <p><i>Captura 1: Verificación de la conexión inicial al contenedor vía SSH.</i></p>
 </div>
 
@@ -48,9 +49,10 @@
 ### Resolución de Incidencias
 [cite_start]Se identificó un "error de protocolo/sesión" al intentar duplicar conexiones, lo cual se resolvió gestionando correctamente las sesiones activas en el servidor. 
 
-<div align="center">
-  <img src="escritorio_remotoFALLO.png" alt="Error de Sesión RDP" width="60%">
-</div>
+<img width="555" height="132" alt="escritorio_remotoFALLO" src="https://github.com/user-attachments/assets/d3324047-5564-476d-9d73-248cb916a12d" /><img width="973" height="312" alt="pasoC" src="https://github.com/user-attachments/assets/63e4a914-eb1a-4c1f-b37e-0298fbc0e9e0" />
+<img width="912" height="722" alt="pruebalograda" src="https://github.com/user-attachments/assets/f42e0043-f16d-43e5-a0f2-a1f6faee404f" />
+
+
 
 ### Evidencia de Éxito
 [cite_start]Se creó el archivo `PRUEBA_LOGRADA.txt` en el escritorio del contenedor como prueba de acceso y manipulación remota. 
